@@ -7,46 +7,94 @@
         <link rel="stylesheet" href="css/main.css">
     </head>
 
-    <header>
+    <header id="home">
+        <div class="dropdown" style="float:left;">
+            <button class="dropbtn">
+                <div id='burger'></div>
+                <div id='burger'></div>
+                <div id='burger'></div>
+            </button>
+            <div class="dropdown-content" style="left:0;">
+                <a href="#home">Home</a>
+                <a href="#pkg1">Package 1</a>
+                <a href="#pkg2">Package 2</a>
+                <a href="#pkg3">Package 3</a>
+                <a href="#alc">A la carte</a>
+                <a href="#footsie">Contact</a>
+            </div>
+        </div>
+        <br>
+        <br>
         <h1 align='center'>Jewelry Party Packages</h1>
         <h2 align='center' id='headerOod'>by Oodalalee Design</h2>
     </header>
 
     <body>
         <section id='stepsSection'>
-            <h2 id='succesful'>How to make YOUR Get-Together a SUCCESS!!</h2>
-            <h3 align='center' id='steps'>I meet with the host before the special date to decide 
-                on what YOU want to create.    It’s deciding time!!  Together we 
-                walk through the different package options. You get to choose 
-                from the shape, type of wire, and beads YOU want to create at your 
-                event.  We’ll discuss things that work well, go over any questions 
-                you might have and FINALIZE any creative aspect needed before the event.
-            </h3>
-
+            <h2 align='center' id='succesful'>How to make YOUR Get-Together a SUCCESS!!</h2>
+            <ol type="1" align='left' style="margin: 1em">
+                <li>I will meet with the host before the special date to decide 
+                    on what YOU want to create.  It’s deciding time!!  Together we 
+                    walk through the different package options. You get to choose 
+                    from the shape, type of wire, and beads YOU want to create at your 
+                    event.  We’ll discuss things that work well, go over any questions 
+                    you might have and FINALIZE any creative aspect needed before the event.
+                </li>
+                <li>
+                    The host and I will discuss the event location and how many guests are attending. 
+                    <ol type="a">
+                        <li>
+                            What kind of location: home, business, she-shed, etc.
+                        </li>
+                        <li>
+                            We’ll decide whether having a Jewelry Display for those 
+                            interested in ‘extra’ goodies for purchase is an option 
+                            <b>YOU</b> would like to have.
+                        </li>
+                        <li>
+                            Lastly, the host decides if they would like an 
+                            ‘A La Carte’ option for party goers
+                        </li>
+                    </ol>
+                </li>
+                <li>
+                    The big day is finally here!!  I will arrive at the event site 
+                    approximately an hour before Party-time.  The host will have their 
+                    favorite foods, drinks, music ready and I will come prepared with 
+                    all of the materials, tools, and experience to help ALL GUESTS create 
+                    a beautiful piece of jewelry and to ensure your get-together is a SUCCESS!
+                </li>
+            </ol>   
+            <h2 align='center'>Now, time for the fun part, DECIDING WHAT TO MAKE!</h2>
         </section>
 
-        
-        <section id='slides'>
+        <section id='slides' style='background-color: lightgrey'>
             <!-- Slideshow container -->
             <div class="slideshow-container">
 
                 <!-- Full-width images with number and caption text -->
                 <div class="mySlides fade">
-                <div class="numbertext">1 / 3</div>
+                <div class="numbertext">1 / 4</div>
                 <img src="placeholder.png" style="width:100%">
                 <div class="text">Caption Text</div>
                 </div>
             
                 <div class="mySlides fade">
-                <div class="numbertext">2 / 3</div>
+                <div class="numbertext">2 / 4</div>
                 <img src="placeholder.png" style="width:100%">
                 <div class="text">Caption Two</div>
                 </div>
             
                 <div class="mySlides fade">
-                <div class="numbertext">3 / 3</div>
+                <div class="numbertext">3 / 4</div>
                 <img src="placeholder.png" style="width:100%">
                 <div class="text">Caption Three</div>
+                </div>
+
+                <div class="mySlides fade">
+                <div class="numbertext">4 / 4</div>
+                <img src="placeholder.png" style="width:100%">
+                <div class="text">Caption Four</div>
                 </div>
             
                 <!-- Next and previous buttons -->
@@ -60,106 +108,180 @@
                 <span class="dot" onclick="currentSlide(1)"></span> 
                 <span class="dot" onclick="currentSlide(2)"></span> 
                 <span class="dot" onclick="currentSlide(3)"></span> 
+                <span class="dot" onclick="currentSlide(4)"></span>
             </div>
         </section>
-    
 
-        <!-- Package 1 section -->
-        <section style='background-color: lightblue; padding: 1em 0px'>
+        <section id='pkg1' style='background-color: lightblue; padding-top: 1em; padding-bottom: 1em'>
             <h2 align='center'>Package 1</h2>
-            <h2 align='center'>'Simple'</h2>
+            <h2 align='center'><i>'Simple'</i></h2>
             <div class="row">
-                <div>
-                    <img src="placeholder.png" alt="Snow">
+                <div id='divInRow'>
+                    <img src="placeholder.png" alt="Snow" style="width: 100%">
                     <figcaption align='center' >Pear Shape</figcaption>
                 </div>
 
-                <div>
-                    <img src="placeholder.png" alt="Snow">
-                    <figcaption align='center' >Pear Shape</figcaption>
+                <div id='divInRow'>
+                    <img src="placeholder.png" alt="Snow"  style="width: 100%">
+                    <figcaption align='center' >Tear Drop</figcaption>
                 </div>
 
-                <div>
-                    <img src="placeholder.png" alt="Snow">
-                    <figcaption align='center' >Pear Shape</figcaption>
+                <div id='divInRow'>
+                    <img src="placeholder.png" alt="Snow"  style="width: 100%">
+                    <figcaption align='center' >Rectangle</figcaption>
                 </div>
-                
             </div>
             <h3 align='center'>Want something more original, try hammering them!</h3>
             <div class="row">
                 <div>
-                    <img src="placeholder.png" alt="Snow">
-                    <figcaption align='center'>Pear Shape</figcaption>
+                    <img src="placeholder.png" alt="Snow" style="width: 100%">
+                    <figcaption align='center'>Hammered</figcaption>
                 </div>
                 <div>
-                    <img src="placeholder.png" alt="Forest">
-                    <figcaption align='center'>Tear Drop</figcaption>
+                    <img src="placeholder.png" alt="Forest" style="width: 100%">
+                    <figcaption align='center'>Not Hammered</figcaption>
                 </div>
             </div>
-            <h3 align='center'>Simple package starts at  $35 per person.
+            <h2 align='center' style="margin: 1em; font-family: 'Comic Sans MS', cursive, sans-serif">Simple package starts at  $35 per person.
                 This includes all materials needed as well as step by step instructions.
-            </h3>
+            </h2>
         </section>
-
-        <!-- Package 2 section -->
-        <section style='background-color: lightcoral; padding: 1em 0px'>
-            <h2 align='center'>Package 2</h2>
+        
+        <section id='pkg2' style='background-color: lightcoral; padding-top: 1em; padding-bottom: 1em'>
+            <h1 align='center'>Package 2</h1>
             <h2 align='center'><i>'Sewn'</i></h2>
             <div class="row">
                 <div>
-                    <img src="placeholder.png" alt="Snow">
+                    <img src="placeholder.png" alt="Snow" style="width: 100%">
                     <figcaption align='center' >Pear Shape</figcaption>
                 </div>
 
                 <div>
-                    <img src="placeholder.png" alt="Snow">
+                    <img src="placeholder.png" alt="Snow" style="width: 100%">
                     <figcaption align='center' >Pear Shape</figcaption>
                 </div>
 
                 <div>
-                    <img src="placeholder.png" alt="Snow">
+                    <img src="placeholder.png" alt="Snow" style="width: 100%">
                     <figcaption align='center' >Pear Shape</figcaption>
                 </div>
                 
             </div>
-            <h3 align='center'>Want something more <i>original</i>, try hammering them!</h3>
+            <h3 align='center' style="margin: auto">Want something more <i>original</i>, try hammering them!</h3>
             <div class="row">
                 <div>
-                    <img src="placeholder.png" alt="Snow">
+                    <img src="placeholder.png" alt="Snow" style="width: 100%">
                     <figcaption align='center'>Pear Shape</figcaption>
                 </div>
                 <div>
-                    <img src="placeholder.png" alt="Forest">
+                    <img src="placeholder.png" alt="Forest" style="width: 100%">
                     <figcaption align='center'>Tear Drop</figcaption>
                 </div>
             </div>
-            <h3 align='center'>Decide on the Sewn Design you like the most...</h3>
+            <h3 align='center' style="margin-top: 1em">Decide on the Sewn Design you like the most...</h3>
             <div class="row">
                 <div>
-                    <img src="placeholder.png" alt="Snow">
-                    <figcaption>Pear Shape</figcaption>
+                    <img src="placeholder.png" alt="Snow" style="width: 100%">
+                    <figcaption align='center'>On Bottom</figcaption>
                 </div>
 
                 <div>
-                    <img src="placeholder.png" alt="Snow">
-                    <figcaption>Pear Shape</figcaption>
+                    <img src="placeholder.png" alt="Snow" style="width: 100%">
+                    <figcaption align='center'>Inside</figcaption>
                 </div>
 
                 <div>
-                    <img src="placeholder.png" alt="Snow">
-                    <figcaption>Pear Shape</figcaption>
+                    <img src="placeholder.png" alt="Snow" style="width: 100%">
+                    <figcaption align='center'>Spider Web</figcaption>
                 </div>
 
                 <div>
-                    <img src="placeholder.png" alt="Snow">
-                    <figcaption align='center' >Pear Shape</figcaption>
+                    <img src="placeholder.png" alt="Snow" style="width: 100%">
+                    <figcaption align='center' >Shaped</figcaption>
                 </div>
             </div>
+            <h3 align='center' style='margin: auto 1em'>Sewn Packages include a bead option.  
+                This Package can vary 
+                based on the color, size, and shape of the bead.  Some beads are more 
+                unique and the package price may change depending on the final bead selected.
+            </h3>
+            <h2 align='center' style="margin: 1em; font-family: 'Comic Sans MS', cursive, sans-serif">
+                Sewn package starts at  $45 per person.
+                This includes all materials needed as well as step by step instructions.
+            </h2>
         </section>
+
+        <section id='pkg3' style='background-color: lightgoldenrodyellow; padding-top: 1em; padding-bottom: 1em'>
+            <h1 align='center'>Package 3</h1>
+            <h2 align='center'><i>'Dangly'</i></h2>
+            <div class="row">
+                <div id='divInRow'>
+                    <img src="placeholder.png" alt="Snow" style="width: 100%">
+                    <figcaption align='center' >Skinny Tear</figcaption>
+                </div>
+
+                <div id='divInRow'>
+                    <img src="placeholder.png" alt="Snow"  style="width: 100%">
+                    <figcaption align='center' >Tear Drop</figcaption>
+                </div>
+
+                <div id='divInRow'>
+                    <img src="placeholder.png" alt="Snow"  style="width: 100%">
+                    <figcaption align='center' >Circle</figcaption>
+                </div>
+            </div>
+            <h3 align='center' style='margin: 1em'>Want something more original, try hammering them!</h3>
+            <div class="row">
+                <div>
+                    <img src="placeholder.png" alt="Snow" style="width: 100%">
+                    <figcaption align='center'>Hammered</figcaption>
+                </div>
+                <div>
+                    <img src="placeholder.png" alt="Forest" style="width: 100%">
+                    <figcaption align='center'>Not Hammered</figcaption>
+                </div>
+            </div>
+            <h3 align='center' style='margin: 1em'>Dangly Packages include a bead option.  This Package 
+                can vary based on the color, size, and shape of the bead.  Some 
+                beads are more unique and the package price may change depending 
+                on the final bead selected.
+            </h3>
+            <h2 align='center' style="margin: 1em; font-family: 'Comic Sans MS', cursive, sans-serif">
+                Dangly packages start at  $40 per person.
+                This includes all materials needed as well as step by step instructions.
+            </h2>
+        </section>
+
+        <section id='alc' style="background-color:lightpink; padding: 1em">
+            <h1 align='center'>A La Carte Options</h1>
+            <h3 align='center'>This has been created for those people who can’t get enough!  
+                    They might want to <b><u>MAKE</u></b> more, 
+                    <b><u>HAVE</u></b> more on their piece 
+                    or decide to go <b><u>"off-grid"</u></b>
+            </h3>
+            <h3 align='center' style="margin: 1em">This is not FOR EVERYONE.   
+                A La Carte Is OPTIONAL!
+            </h3>
+            <ul align='left'>
+                <li>Extra Beads: $5 (if unique bead, might be more)</li>
+                <li>Extra Wire: $5</li>
+                <li>Creates ANOTHER Pair of Earrings: $25</li>
+            </ul>
+        </section>
+
+        <section align='center' style="padding: 1em; margin: 1em">
+            <h1>Register Now!</h1>
+            <a href="documents/signup.pdf">Registration PDF (Open it in a new tab)</a>
+        </section>
+
+        <footer id='footsie' align='center'>
+            <h1><i>Oodalalee Designs</i></h1>
+            <a href="tel:8312611277">831-261-1277</a>
+            <br>
+            <a href="mailto:oodalalee4u@gmail.com">oodalalee4u@gmail.com</a>
+        </footer>
+
 
         <script type="text/javascript" src="js/main.js"></script>
     </body>
-
-    
-
 </html>
