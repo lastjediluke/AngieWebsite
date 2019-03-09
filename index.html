@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Angie's Website</title>
+        <title>Oodalalee Designs</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="utf-8">
         <link rel="stylesheet" href="css/main.css">
@@ -9,12 +9,12 @@
 
     <header id="home">
         <div class="dropdown" style="float:left;">
-            <button class="dropbtn">
+            <button onclick="myFunction()"class="dropbtn">
                 <div id='burger'></div>
                 <div id='burger'></div>
                 <div id='burger'></div>
             </button>
-            <div class="dropdown-content" style="left:0;">
+            <div id="myDropdown" class="dropdown-content" style="left:0;">
                 <a href="#home">Home</a>
                 <a href="#pkg1">Package 1</a>
                 <a href="#pkg2">Package 2</a>
@@ -26,13 +26,13 @@
         <br>
         <br>
         <h1 align='center'>Jewelry Party Packages</h1>
-        <h2 align='center' id='headerOod'>by Oodalalee Design</h2>
+        <h2 align='center' id='headerOod'>by Oodalalee Designs</h2>
     </header>
 
     <body>
         <section id='stepsSection' style="background-color: whitesmoke; padding: 1em 0em">
             <h2 align='center' id='succesful'>How to make YOUR Get-Together a SUCCESS!!</h2>
-            <ol type="1" align='left' style="margin: 1em">
+            <ol id='steps' type="1" align='left' style="margin: 1em">
                 <li>I will meet with the host before the special date to decide 
                     on what YOU want to create.  It’s deciding time!!  Together we 
                     walk through the different package options. You get to choose 
@@ -65,14 +65,15 @@
                     a beautiful piece of jewelry and to ensure your get-together is a SUCCESS!
                 </li>
             </ol>   
-            <h2 align='center'>Now, time for the fun part, DECIDING WHAT TO MAKE!</h2>
+            <h2 align='center'>Now, time for the fun part...DECIDING WHAT TO MAKE!</h2>
         </section>
 
+        <!--
         <section id='slides' style='background-color: whitesmoke'>
-            <!-- Slideshow container -->
+            
             <div class="slideshow-container">
 
-                <!-- Full-width images with number and caption text -->
+                
                 <div class="mySlides fade">
                 <div class="numbertext">1 / 4</div>
                 <img src="placeholder.png" style="width:100%">
@@ -97,13 +98,12 @@
                 <div class="text">Caption Four</div>
                 </div>
             
-                <!-- Next and previous buttons -->
+                
                 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                 <a class="next" onclick="plusSlides(1)">&#10095;</a>
             </div>
             <br>
             
-            <!-- The dots/circles -->
             <div style="text-align:center">
                 <span class="dot" onclick="currentSlide(1)"></span> 
                 <span class="dot" onclick="currentSlide(2)"></span> 
@@ -111,23 +111,24 @@
                 <span class="dot" onclick="currentSlide(4)"></span>
             </div>
         </section>
+        -->
 
         <section id='pkg1' style='background-color: lightcyan; padding-top: 1em; padding-bottom: 1em'>
             <h2 align='center'>Package 1</h2>
             <h2 align='center'><i>'Simple'</i></h2>
             <div class="row">
                 <div id='divInRow'>
-                    <img src="placeholder.png" alt="Snow" style="width: 100%">
+                    <img src="photos/pearWood.JPG" alt="Snow" style="width: 100%">
                     <figcaption align='center' >Pear Shape</figcaption>
                 </div>
 
                 <div id='divInRow'>
-                    <img src="placeholder.png" alt="Snow"  style="width: 100%">
+                    <img src="photos/teardropWood Cropped.JPG" alt="Snow"  style="width: 100%">
                     <figcaption align='center' >Tear Drop</figcaption>
                 </div>
 
                 <div id='divInRow'>
-                    <img src="placeholder.png" alt="Snow"  style="width: 100%">
+                    <img src="photos/rectangleWood.JPG" alt="Snow"  style="width: 100%">
                     <figcaption align='center' >Rectangle</figcaption>
                 </div>
             </div>
@@ -253,16 +254,16 @@
         </section>
 
         <section id='alc' style="background-color:whitesmoke; padding: 1em">
-            <h1 align='center'>A La Carte Options</h1>
+            <h1 align='center' style='font-style: italic'>A La Carte Options</h1>
             <h3 align='center'>This has been created for those people who can’t get enough!  
                     They might want to <b><u>MAKE</u></b> more, 
                     <b><u>HAVE</u></b> more on their piece 
                     or decide to go <b><u>"off-grid"</u></b>
             </h3>
-            <h3 align='center' style="margin: 1em">This is not FOR EVERYONE.   
+            <h3 align='center' style="margin: 1em; text-decoration: underline">This is not FOR EVERYONE.   
                 A La Carte Is OPTIONAL!
             </h3>
-            <ul align='left'>
+            <ul align='left' style='font-family: Papyrus'>
                 <li>Extra Beads: $5 (if unique bead, might be more)</li>
                 <li>Extra Wire: $5</li>
                 <li>Creates ANOTHER Pair of Earrings: $25</li>

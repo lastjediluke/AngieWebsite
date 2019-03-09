@@ -10,6 +10,25 @@ header
     background-color:lightpink;
     padding: 1em;
     color: white; 
+    
+}
+
+p
+{
+  
+}
+
+#stepsSection
+{
+  
+}
+
+img 
+{
+  object-fit: cover;
+  width:250px;
+  height:250px;
+  border-style: solid;
 }
 
 HTML, body
@@ -24,7 +43,7 @@ HTML, body
 
 #steps
 {
-  text-align: center;
+  font-family: Papyrus;
 }
 
 * {box-sizing:border-box}
@@ -189,7 +208,8 @@ footer
 }
 
 .dropdown-content a:hover {background-color: #f1f1f1;}
-.dropdown:hover .dropdown-content {display: block;}
+/* .dropdown:hover .dropdown-content {display: block;} */
+.show {display:block;}
 .dropdown:hover .dropbtn {background-color: lightcoral;}
 
 #burger
@@ -198,6 +218,10 @@ footer
   height: 2px;
   background-color: black;
   margin: 6px 0;
+}
+
+.disableMenu {
+	display: none;
 }
 
 
