@@ -96,9 +96,17 @@ HTML, body
 /* I could add #divInRow, but I will just leave the size at 250px */
 @media screen and (max-width: 800px) 
 {
+  header h1, footer
+  {
+    font-size: 26px;
+  }
   .slideshow-container 
   {
     width: 90%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+  #headerOod
+  {
+    font-size: 20px;
   }
 }
 
@@ -282,7 +290,8 @@ HTML, body
 footer
 {
   background-color: whitesmoke;
-  padding: 1em;
+  padding-top: 2em;
+  padding-bottom: 2em;
   color: lightseagreen;
 }
 
