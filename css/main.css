@@ -94,11 +94,11 @@ HTML, body
 }
 
 /* I could add #divInRow, but I will just leave the size at 250px */
-@media screen and (max-width: 800px) 
+@media screen and (max-width: 600px) 
 {
   header h1, footer
   {
-    font-size: 26px;
+    font-size: 24px;
   }
   .slideshow-container 
   {
@@ -106,7 +106,7 @@ HTML, body
   }
   #headerOod
   {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
