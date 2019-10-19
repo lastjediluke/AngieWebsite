@@ -96,7 +96,7 @@ HTML, body
 /* I could add #divInRow, but I will just leave the size at 250px */
 @media screen and (max-width: 600px) 
 {
-  header h1, footer h1
+  header h1, #footsie h1
   {
     font-size: 24px;
   }
