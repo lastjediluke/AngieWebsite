@@ -10,7 +10,6 @@ header
     background-color:lightpink;
     padding: 1em;
     color: white; 
-    
 }
 
 p
@@ -64,18 +63,21 @@ HTML, body
 /* I could add #divInRow, but I will just leave the size at 250px */
 @media screen and (max-width: 800px) 
 {
-  .slideshow-container {
+  .slideshow-container 
+  {
     width: 90%; /* The width is 100%, when the viewport is 800px or smaller */
   }
 }
 
 /* Hide the images by default */
-.mySlides {
+.mySlides 
+{
   display: none;
 }
 
 /* Next & previous buttons */
-.prev, .next {
+.prev, .next 
+{
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -91,18 +93,21 @@ HTML, body
 }
 
 /* Position the "next button" to the right */
-.next {
+.next 
+{
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
+.prev:hover, .next:hover 
+{
   background-color: rgba(0,0,0,0.8);
 }
 
 /* Caption text */
-.text {
+.text 
+{
   color: #f2f2f2;
   font-size: 15px;
   padding: 8px 12px;

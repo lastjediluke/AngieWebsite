@@ -1,17 +1,19 @@
 var slideIndex = 1;
-// showSlides(slideIndex);
+showSlides(slideIndex);
 
 // Next/previous controls
-function plusSlides(n) {
-  // showSlides(slideIndex += n);
+function plusSlides(n) 
+{
+  showSlides(slideIndex += n);
 }
 
 // Thumbnail image controls
-function currentSlide(n) {
-  // showSlides(slideIndex = n);
+function currentSlide(n) 
+{
+  showSlides(slideIndex = n);
 }
 
-/*
+
 function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
@@ -27,7 +29,7 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block"; 
   dots[slideIndex-1].className += " active";
 }
-*/
+
 
 /* When the user clicks on the button, 
 toggle between hiding and showing the dropdown content */
